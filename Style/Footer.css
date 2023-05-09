@@ -1,0 +1,117 @@
+footer {
+  border-radius: 0 50px 0 0;
+  background-color: #06061a;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "DM Sans", "sans serif";
+}
+
+footer .supportFooter {
+  display: flex;
+  justify-content: space-between;
+  padding-block: 50px;
+  align-items: center;
+}
+
+footer .supportFooter > div {
+  max-width: 50%;
+}
+
+footer .supportFooter h2 {
+  font-family: "Source Sans Pro", "sans serif";
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 44px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+footer .supportFooter p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+}
+
+footer .supportFooter button {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  color: #f4f7ff;
+  padding-inline: 45px;
+  padding-block: 25px;
+  gap: 15px;
+  background-color: var(--primary);
+  height: fit-content;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+footer .supportFooter button:hover {
+  opacity: 0.8;
+}
+
+footer .mainFooter {
+  display: flex;
+  gap: 30px;
+  line-height: 28px;
+  justify-content: space-between;
+  padding-block: 50px;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+footer .descFooter {
+  max-width: 575px;
+}
+
+footer .LogoFooter {
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  color: #fff;
+  margin-bottom: 15px;
+  width: fit-content;
+}
+
+footer .descFooter p {
+  font-size: 16px;
+}
+
+footer .footerBar {
+  display: flex;
+  width: 100%;
+  gap: 30px;
+}
+
+footer .footerBar .itemFooter {
+  width: 171px;
+}
+
+footer .footerBar .itemFooter h6 {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 18px;
+}
+
+footer .footerBar .itemFooter ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+
+footer .footerBar .itemFooter a:hover {
+  text-decoration: underline;
+}
+
+footer .copyright {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1em;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  padding: 50px 0px;
+}

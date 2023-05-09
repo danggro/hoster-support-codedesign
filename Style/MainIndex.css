@@ -1,0 +1,45 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 52px;
+  column-gap: 30px;
+  padding: 81px 0 76px 0;
+  /* width: 100%; */
+}
+
+main .cardMain {
+  /* width: calc(4 / 12 * 100%); */
+  flex-grow: 1;
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0px 30px 60px rgba(58, 58, 244, 0.1);
+  color: #060619;
+}
+
+main .cardMain .cardTitle {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+main .cardMain .cardTitle h6 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+main .cardMain ul {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+main .cardMain ul .questionItemCard {
+  font-weight: 600;
+  display: flex;
+  gap: 8px;
+}
+
+main .cardMain ul .questionItemCard a:hover {
+  text-decoration: underline;
+}

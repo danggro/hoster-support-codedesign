@@ -1,0 +1,130 @@
+header {
+  background: linear-gradient(180deg, #0f0f33 0%, #050517 100%);
+}
+
+.navbar {
+  font-family: "DM Sans", "sans serif";
+  display: flex;
+  padding-top: 57px;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.navbar .LogoNav {
+  font-size: 18px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbar .NavLink {
+  gap: 50px;
+  display: flex;
+}
+
+.navbar .NavLink .LinkNav {
+  font-weight: 500;
+  opacity: 80%;
+  color: #fff;
+}
+
+.navbar .NavLink .active {
+  font-weight: 700;
+  opacity: 100%;
+}
+
+.navbar .NavLink .LinkNav:hover {
+  text-decoration: underline;
+  opacity: 100;
+}
+
+.navbar .btn-nav {
+  padding-inline: 30px;
+  padding-block: 15px;
+  font-weight: 700;
+  border-radius: 30px;
+  background-color: #fff;
+  cursor: pointer;
+  border: 1px solid #fff;
+  color: #000;
+}
+
+.navbar .btn-nav:hover {
+  background-color: transparent;
+  color: #fff;
+}
+
+header .supportCenter {
+  padding-top: 75px;
+  padding-bottom: 137px;
+  width: calc(7 / 12 * 100%);
+  color: #fff;
+}
+
+header .supportCenter h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 52px;
+}
+
+header .supportCenter > p {
+  line-height: 26px;
+  width: 80%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+header .supportCenter form {
+  display: flex;
+  position: relative;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+header .supportCenter form label {
+  position: absolute;
+  top: 54%;
+  transform: translateY(-50%);
+  left: 24px;
+}
+
+header .supportCenter form input {
+  background-color: #fff;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-block: 19px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+header .supportCenter form button {
+  padding-inline: 30px;
+  background-color: var(--primary);
+  cursor: pointer;
+}
+
+header .supportCenter form button:hover {
+  opacity: 0.8;
+}
+
+header .supportCenter .popular {
+  display: flex;
+  font-weight: 600;
+  gap: 14px;
+  padding-top: 20px;
+}
+
+header .supportCenter .popular p {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  opacity: 0.6;
+}
+
+header .supportCenter .popular a {
+  text-decoration: underline;
+}
+
+header .supportCenter .popular a:hover {
+  color: var(--primary);
+}

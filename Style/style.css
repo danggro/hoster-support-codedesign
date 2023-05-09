@@ -1,0 +1,12 @@
+:root {
+  --primary: #3a3af4;
+}
+
+.container {
+  padding-inline: 150px;
+}
+
+body {
+  font-family: "Source Sans Pro", "sans serif";
+  background-color: #eeeeff;
+}
